@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="68220" started-at="2014-09-21T17:44:38Z" finished-at="2014-09-21T17:45:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="68220" started-at="2014-09-21T17:44:38Z" finished-at="2014-09-21T17:45:46Z">
+      <class name="tests.AddVideoSeparateMethodsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.AddVideoSeparateMethodsTest@376cc3]" name="setUp" is-config="true" duration-ms="39075" started-at="2014-09-21T19:44:38Z" finished-at="2014-09-21T19:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="redirectToWikiaMain()[pri:0, instance:tests.AddVideoSeparateMethodsTest@376cc3]" name="redirectToWikiaMain" duration-ms="9263" started-at="2014-09-21T19:45:17Z" finished-at="2014-09-21T19:45:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectToWikiaMain -->
+        <test-method status="PASS" signature="expandContributeDropdown()[pri:0, instance:tests.AddVideoSeparateMethodsTest@376cc3]" name="expandContributeDropdown" duration-ms="379" started-at="2014-09-21T19:45:27Z" finished-at="2014-09-21T19:45:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expandContributeDropdown -->
+        <test-method status="PASS" signature="clickAddVideo()[pri:0, instance:tests.AddVideoSeparateMethodsTest@376cc3]" name="clickAddVideo" duration-ms="4259" started-at="2014-09-21T19:45:27Z" finished-at="2014-09-21T19:45:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAddVideo -->
+        <test-method status="FAIL" signature="addVideo()[pri:0, instance:tests.AddVideoSeparateMethodsTest@376cc3]" name="addVideo" duration-ms="6767" started-at="2014-09-21T19:45:31Z" finished-at="2014-09-21T19:45:38Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+
+Wrong flashmessage displayed! 
+Video page File:Morze was successfully added.
+instead of:
+Video page File:Morze succesfully added. expected [Video page File:Morze succesfully added.] but found [Video page File:Morze was successfully added.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+
+Wrong flashmessage displayed! 
+Video page File:Morze was successfully added.
+instead of:
+Video page File:Morze succesfully added. expected [Video page File:Morze succesfully added.] but found [Video page File:Morze was successfully added.]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at tests.AddVideoSeparateMethodsTest.addVideo(AddVideoSeparateMethodsTest.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addVideo -->
+        <test-method status="PASS" signature="clickFlashMessage()[pri:0, instance:tests.AddVideoSeparateMethodsTest@376cc3]" name="clickFlashMessage" duration-ms="7547" started-at="2014-09-21T19:45:38Z" finished-at="2014-09-21T19:45:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickFlashMessage -->
+        <test-method status="PASS" signature="verifyVideoTitle()[pri:0, instance:tests.AddVideoSeparateMethodsTest@376cc3]" name="verifyVideoTitle" duration-ms="57" started-at="2014-09-21T19:45:46Z" finished-at="2014-09-21T19:45:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVideoTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddVideoSeparateMethodsTest@376cc3]" name="tearDown" is-config="true" duration-ms="828" started-at="2014-09-21T19:45:46Z" finished-at="2014-09-21T19:45:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddVideoSeparateMethodsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
